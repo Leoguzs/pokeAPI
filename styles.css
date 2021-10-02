@@ -13,6 +13,7 @@ body {
   
   h1 {
     color: white;
+    text-align: center;
   }
   
   .pokemon-container {
@@ -29,28 +30,34 @@ body {
   .pokemon-block,
   .pokemon-block-back {
     border-radius: 10px;
+    border: 1px solid #158185;
     padding: 10px;
-    background-color: white;
+    background-color: linear-gradient(
+      90deg,
+      rgba(85, 144, 189, 1) 0%,
+      rgba(108, 183, 240, 1) 54%,
+      rgba(182, 216, 242, 1) 82%
+    );
     box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
   }
   
   .img-container {
     background-image: url("./blob.svg");
     background-repeat: no-repeat;
-
-    margin-left: 140px;
+    background-position: center;
+   
   }
   
   .pokemon-block p {
     margin: 5px;
-    margin-left: 140px;
+
   }
   
   .name {
     text-transform: capitalize;
     font-weight: bold;
     font-size: 1.2rem;
-    margin-left: 140px;
+
   }
   
   #spinner {
