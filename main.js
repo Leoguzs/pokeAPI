@@ -4,7 +4,7 @@ const $previous = document.querySelector('#previous')
 const $next = document.querySelector('#next')
 
 let offset = 1;
-let limit = 8;
+let limit = 11;
 
 $previous.addEventListener('click', ()=> {
     if (offset != 1 ) {
